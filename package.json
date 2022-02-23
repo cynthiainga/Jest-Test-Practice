@@ -1,0 +1,24 @@
+{
+  "name": "jest-test-practice",
+  "version": "1.0.0",
+  "description": "In this repo, it is about practical tests for JavaScript functions using the Jest library. It uses the AAA pattern to make tests easier for other developers to read and understand and also uses the TDD approach in practice.",
+  "main": "challenges.js",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiainga/Jest-Test-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynthiainga/Jest-Test-Practice/issues"
+  },
+  "homepage": "https://github.com/cynthiainga/Jest-Test-Practice#readme"
+}
