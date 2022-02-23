@@ -22,3 +22,8 @@ describe("My calculator action", () => {
     expect(newCalc.multiply(4, 2)).toBe(8);
   });
 });
+
+test("capitalize String the string", () => {
+  const text = capitalizeString("candy inga");
+  expect(text).toBe("Candy inga");
+});
