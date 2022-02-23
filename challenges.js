@@ -9,3 +9,26 @@ exports.reverseString = (str) => {
   const reverseStr = str.split("").reverse().join("");
   return reverseStr;
 };
+class Calculator {
+  constructor() {}
+
+  add(a, b) {
+    return a + b;
+  }
+
+  subtract(a, b) {
+    return a - b;
+  }
+
+  multiply(a, b) {
+    return a * b;
+  }
+
+  divide(a, b) {
+    return a / b;
+  }
+}
+
+const newCalc = new Calculator();
+
+exports.newCalc = newCalc;
