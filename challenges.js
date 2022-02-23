@@ -4,3 +4,8 @@ exports.stringLength = (str) => {
   }
   throw new Error("Those conditions are not met");
 };
+
+exports.reverseString = (str) => {
+  const reverseStr = str.split("").reverse().join("");
+  return reverseStr;
+};
